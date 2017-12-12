@@ -34,7 +34,7 @@ var DocumentsComponent = /** @class */ (function () {
             selector: 'documents',
             templateUrl: 'documents.component.html',
             styleUrls: ['documents.component.css'],
-            providers: [document_service_1.DocumentService],
+            providers: [document_service_1.DocumentService]
         }),
         __metadata("design:paramtypes", [document_service_1.DocumentService])
     ], DocumentsComponent);

@@ -11,13 +11,13 @@ import { DocumentService } from './document.service';
   providers: [ DocumentService ]
 })
 export class DocumentsComponent implements OnInit {
-  pageTitle: string = "Document Dashboard"
+  pageTitle: string = "Document Dashboard";
   documents: Document[];
   errorMessage: string;
   mode = "Observable";
 
   constructor(
-    private documentService: DocumentService;
+    private documentService: DocumentService,
   ) {}
 
   ngOnInit() {
